@@ -13,6 +13,7 @@ Introduction to DS
 
 ![alt text](https://github.com/elisehammarstrom/ds/blob/main/images/reversible_markovchain.png?raw=true) 
 and this link (page 2): [Reversible MC](https://inst.eecs.berkeley.edu/~ee126/sp18/reversibility.pdf)
+Here the file ExamTLab is good to look at. 
 * Stationary distribution: Long term frequency. Calculate through raising the transition matrix to a high power, say with math.linalg.matrix_power(transition_matrix, 100)[0]. It is important to take the first row as the stationary distribution. One can also calculate this by using eigenvalues and eigenvectors. See ExamJanuary_2022_problem.ipynb problem 5 part 3
 
 
