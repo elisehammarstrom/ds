@@ -31,6 +31,10 @@ In a regression analysis, the goal is to build a model that minimizes the sum of
 
 ### Dimensionality reduction
 
+### Perceptron
+
+### SVD
+
 ## Other
 ### Covariance  
 Covariance is the degree of say two variables, go together. If one is really positive where the other is really positive, and one is really negative where the other also is really negeative, then they have a high degree of covariance. If one has a really high positive value, and the other really low negative value, then they have a negative covariance. 
