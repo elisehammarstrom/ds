@@ -6,6 +6,12 @@ Introduction to DS
 ### Train-test splits
 
 ### Markov Chains
+#### Important MC definitions
+Absorbing MC: In your case, if any state is absorbing (meaning the probability of staying in that state is 1), one cannot leave that state when one has entered.  check if it's possible to reach any other state from the absorbing state. If so, the chain is still irreducible.
+Irreducible MC: To determine if a Markov chain is irreducible, we need to verify whether it is possible to reach any state from any other state, directly or indirectly, through a sequence of transitions. A Markov chain is irreducible if it forms a single communicating class. If any state is absorbing (meaning the probability of staying in that state is 1), check if it's possible to reach any other state from the absorbing state. If so, the chain is still irreducible.
+Reversible MC: 
+Stationary distribution: Long term frequency
+
 
 ### Subgaussian and subexponential
 
