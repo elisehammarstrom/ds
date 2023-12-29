@@ -9,7 +9,7 @@ Introduction to DS
 #### Important MC definitions
 * Absorbing MC: In your case, if any state is absorbing (meaning the probability of staying in that state is 1), one cannot leave that state when one has entered.  check if it's possible to reach any other state from the absorbing state. If so, the chain is still irreducible.
 * Irreducible MC: To determine if a Markov chain is irreducible, we need to verify whether it is possible to reach any state from any other state, directly or indirectly, through a sequence of transitions. A Markov chain is irreducible if it forms a single communicating class. If any state is absorbing (meaning the probability of staying in that state is 1), check if it's possible to reach any other state from the absorbing state. If so, the chain is still irreducible.
-* Reversible MC: 
+* Reversible MC:When the combinations of all x and y are reversible. See this image ![alt text](https://github.com/elisehammarstrom/ds/blob/main/images/covariance.png?raw=true) and this link (page 2): [Reversible MC](https://inst.eecs.berkeley.edu/~ee126/sp18/reversibility.pdf)
 * Stationary distribution: Long term frequency. Calculate through raising the transition matrix to a high power, say with math.linalg.matrix_power(transition_matrix, 100)[0]. It is important to take the first row as the stationary distribution. One can also calculate this by using eigenvalues and eigenvectors. See ExamJanuary_2022_problem.ipynb problem 5 part 3
 
 
