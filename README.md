@@ -26,8 +26,8 @@ In a regression analysis, the goal is to build a model that minimizes the sum of
 ### Dimensionality reduction
 
 ## Other
-### Covariance 
-Covariance: the degree of where the, say two variables, go together. If one is really positive where the other is really positive, and one is really negative where the other also is really negeative, then they have a high degree of covariance. If one has a really high positive value, and the other really low negative value, then they have a negative covariance. 
+### Covariance  
+Covariance is the degree of where the, say two variables, go together. If one is really positive where the other is really positive, and one is really negative where the other also is really negeative, then they have a high degree of covariance. If one has a really high positive value, and the other really low negative value, then they have a negative covariance. 
 Covariance and correlation are very very similar, even up to their mathematical formulations. Correlation is bounded between -1 and 1 whereas covariance is not necessarily bounded between -1 and 1. The covariance matrix has all variables as rows and all variables as columns. 
 
 ![alt text](https://github.com/elisehammarstrom/ds/blob/main/images/covariance.png?raw=true)
