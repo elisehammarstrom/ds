@@ -32,7 +32,7 @@ Covariance and correlation are very very similar, even up to their mathematical 
 
 ![alt text](https://github.com/elisehammarstrom/ds/blob/main/images/covariance.png?raw=true)
 As such, we see that the covariance of the variable with itself, is the variance of the variable. 
-So Cov(A, A) = Var(A)
+So Cov(A, A) = Var(A) = E(A*A) - E(A)*E(A) where E(A*A) is the mean of the squared A vector and E(A) just is the mean of the A vector. 
 Cov(A,B) = Cov(B, A) as the order doesnt matter. The covariance matrix is symmetric, so the transpose of it is the same as the original matrix. 
 
 This is all based from this YT: [Data Science Covariance](https://www.youtube.com/watch?v=152tSYtiQbw)
