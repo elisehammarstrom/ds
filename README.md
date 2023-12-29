@@ -31,8 +31,16 @@ Covariance is the degree of say two variables, go together. If one is really pos
 Covariance and correlation are very very similar, even up to their mathematical formulations. Correlation is bounded between -1 and 1 whereas covariance is not necessarily bounded between -1 and 1. The covariance matrix has all variables as rows and all variables as columns. 
 
 ![alt text](https://github.com/elisehammarstrom/ds/blob/main/images/covariance.png?raw=true)
+As such, we see that the covariance of the variable with itself, is the variance of the variable. 
+So Cov(A, A) = Var(A)
+Cov(A,B) = Cov(B, A) as the order doesnt matter. The covariance matrix is symmetric, so the transpose of it is the same as the original matrix. 
 
 This is all based from this YT: [Data Science Covariance](https://www.youtube.com/watch?v=152tSYtiQbw)
+
+How to calculate covariance by hand: 
+Get the mean of each column (eg mean of Apple, mean of Banana). This gives mean(A) = E(A) and mean(B) = E(B)
+Covariance(A, B) = E(A*B) - E(A)*E(B). 
+We find E(A*B) by going pairwise and multiply each value of A with each value of B. AS such, E(A*B) = mean(A@B) where @ is dotproduct. 
 
 
 Coefficient matrix: 
