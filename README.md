@@ -5,6 +5,12 @@ Introduction to DS
 
 ### Train-test splits & metrics to assess performance
 
+Performance metrics: 
+MAE
+Precision: True Positive / (True Positive + False Positive) or True Positive / Actual Results
+Accuracy: True Positive / (True Positive + False Negatives) or True Positive / Predicted results
+Recall: 
+
 ### Markov Chains
 #### Important MC definitions
 * Absorbing MC: In your case, if any state is absorbing (meaning the probability of staying in that state is 1), one cannot leave that state when one has entered.  check if it's possible to reach any other state from the absorbing state. If so, the chain is still irreducible.
@@ -32,6 +38,9 @@ In various fields, the term "residual" can have different meanings, but in the c
 In a regression analysis, the goal is to build a model that minimizes the sum of the squared residuals. This method is known as least squares regression.
 
 ### General probability questions
+Inversion sampling: We want samples. In normal cases we give the function an X, and it returns a probability. Now we want to get an X from a probability. See problem solving session 03. Istället för att ha F(x) = P(X<=x), som är vår sannolikhetsfunktion (=CDF) där vi då tar in ett värde på x, spottar ut sannolikheten så får vi med inversion sampling ut x baserade på en sannolikhet som input. 
+Distribution function: sv: Fördelningsfunktion
+Density function: sv: Hur mycket sannolikhet man har på olika intervall. 
 
 ## More unlikely to show:
 
