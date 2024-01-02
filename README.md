@@ -30,12 +30,17 @@ Here the file ExamTLab is good to look at.
 ### LCG and Accept-Reject
 
 ### Regression
+
 In various fields, the term "residual" can have different meanings, but in the context of statistics and regression analysis, a residual refers to the difference between the observed value of the dependent variable and the value predicted by the regression model. It represents the part of the dependent variable's variation that is not explained by the independent variables included in the model.
 1) Observed Value (Actual Value): This is the actual value of the dependent variable that you have observed or measured.
 2) Predicted Value: This is the value of the dependent variable predicted by the regression model based on the values of the independent variables.
 3) Residual: The residual is the difference between the observed value and the predicted value. Mathematically, the residual (e_{i}) of the i-th observation is calculated as follows:
    e_{i} = Observed value_{i} - Predicted value_{i}
 In a regression analysis, the goal is to build a model that minimizes the sum of the squared residuals. This method is known as least squares regression.
+
+#### Linear quantitative like rings
+#### Logistic qualitative metrics like sex 
+
 
 ### General probability questions
 Inversion sampling: We want samples. In normal cases we give the function an X, and it returns a probability. Now we want to get an X from a probability. See problem solving session 03. Istället för att ha F(x) = P(X<=x), som är vår sannolikhetsfunktion (=CDF) där vi då tar in ett värde på x, spottar ut sannolikheten så får vi med inversion sampling ut x baserade på en sannolikhet som input. 
