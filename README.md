@@ -3,7 +3,7 @@ Introduction to DS
 
 ## Likely to show up on the exam:
 
-### Train-test splits
+### Train-test splits & metrics to assess performance
 
 ### Markov Chains
 #### Important MC definitions
@@ -20,6 +20,8 @@ Here the file ExamTLab is good to look at.
 ### Subgaussian and subexponential
 
 ### Risk
+
+### LCG and Accept-Reject
 
 ### Regression
 In various fields, the term "residual" can have different meanings, but in the context of statistics and regression analysis, a residual refers to the difference between the observed value of the dependent variable and the value predicted by the regression model. It represents the part of the dependent variable's variation that is not explained by the independent variables included in the model.
@@ -38,6 +40,8 @@ In a regression analysis, the goal is to build a model that minimizes the sum of
 ### Perceptron
 
 ### SVD
+
+### Kernelization
 
 ## Other
 ### Covariance  
