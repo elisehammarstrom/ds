@@ -1,0 +1,3 @@
+https://math.stackexchange.com/questions/2634154/calculate-the-expected-value-for-this-markov-chain
+
+Elise grymma repo: https://github.com/elisehammarstrom/ds
