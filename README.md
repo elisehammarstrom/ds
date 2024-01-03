@@ -26,7 +26,11 @@ Here the file ExamTLab is good to look at.
 * Stationary distribution: Long term frequency. Calculate through raising the transition matrix to a high power, say with math.linalg.matrix_power(transition_matrix, 100)[0]. It is important to take the first row as the stationary distribution. One can also calculate this by using eigenvalues and eigenvectors. See ExamJanuary_2022_problem.ipynb problem 5 part 3
 
 
-### Subgaussian and subexponential
+### Concentration: Subgaussian and subexponential
+Just check the old exam question and image about concentration that motivates each True/False.
+Methodology: 1) Check sub-guassian, 2) check sub-exp 3) if no other two, check if it has finite variance. 
+First, note that any sub-gaussian distribution is sub-exponential. Second, the square of a subgaussian random variable is sub-exponential. 
+Sub-gaussian usually has good concentration properties. 
 
 ### Risk
 
