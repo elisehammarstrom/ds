@@ -6,7 +6,10 @@ Introduction to DS
 ### Train-test splits & metrics to assess performance
 
 Performance metrics: 
-MAE
+MAE:
+MSE:
+LSE:
+Used for classification: 
 Precision: True Positive / (True Positive + False Positive) or True Positive / Actual Results
 Accuracy: True Positive / (True Positive + False Negatives) or True Positive / Predicted results
 Recall: 
